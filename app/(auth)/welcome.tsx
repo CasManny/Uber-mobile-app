@@ -11,7 +11,7 @@ function Onboarding() {
     const [activeIndex, setActiveIndex] = useState(0)
     const isLastSlide = activeIndex === onboarding.length - 1
   return (
-    <SafeAreaView className="h-full justify-between items-center bg-white flex">
+    <SafeAreaView className="h-full justify-between p-5 items-center bg-white flex">
       <TouchableOpacity
         onPress={() => router.replace("/(auth)/sign-up")}
         className="w-full flex justify-end items-end p-5"
